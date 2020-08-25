@@ -90,7 +90,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btn_dig)
         Me.Name = "Form1"
-        Me.Text = "Folder Digger"
+        Me.Text = "Select path"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -100,7 +100,7 @@ Partial Class Form2
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Form2"
-        Me.Text = "Form2"
+        Me.Text = "Statistics"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
