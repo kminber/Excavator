@@ -22,6 +22,7 @@ Partial Class Form2
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.lb_errorFiles = New System.Windows.Forms.Label()
         Me.lb_totalFiles = New System.Windows.Forms.Label()
@@ -47,7 +48,7 @@ Partial Class Form2
         '
         Me.lb_errorFiles.AutoSize = True
         Me.lb_errorFiles.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_errorFiles.Location = New System.Drawing.Point(19, 58)
+        Me.lb_errorFiles.Location = New System.Drawing.Point(19, 60)
         Me.lb_errorFiles.Name = "lb_errorFiles"
         Me.lb_errorFiles.Size = New System.Drawing.Size(208, 19)
         Me.lb_errorFiles.TabIndex = 1
@@ -58,7 +59,7 @@ Partial Class Form2
         '
         Me.lb_totalFiles.AutoSize = True
         Me.lb_totalFiles.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_totalFiles.Location = New System.Drawing.Point(19, 21)
+        Me.lb_totalFiles.Location = New System.Drawing.Point(19, 23)
         Me.lb_totalFiles.Name = "lb_totalFiles"
         Me.lb_totalFiles.Size = New System.Drawing.Size(105, 23)
         Me.lb_totalFiles.TabIndex = 2
@@ -99,6 +100,7 @@ Partial Class Form2
         Me.ClientSize = New System.Drawing.Size(657, 434)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Panel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form2"
         Me.Text = "Statistics"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

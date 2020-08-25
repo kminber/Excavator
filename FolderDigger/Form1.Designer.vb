@@ -22,6 +22,7 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.btn_dig = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btn_selectFolder = New System.Windows.Forms.Button()
@@ -89,6 +90,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btn_selectFolder)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btn_dig)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "Select path"
         Me.ResumeLayout(False)
