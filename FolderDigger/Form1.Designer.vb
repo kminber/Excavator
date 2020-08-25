@@ -33,7 +33,7 @@ Partial Class Form1
         '
         Me.btn_dig.Enabled = False
         Me.btn_dig.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_dig.Location = New System.Drawing.Point(182, 159)
+        Me.btn_dig.Location = New System.Drawing.Point(182, 140)
         Me.btn_dig.Name = "btn_dig"
         Me.btn_dig.Size = New System.Drawing.Size(100, 44)
         Me.btn_dig.TabIndex = 0
@@ -44,7 +44,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(32, 38)
+        Me.Label1.Location = New System.Drawing.Point(32, 32)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(170, 24)
         Me.Label1.TabIndex = 1
@@ -52,8 +52,8 @@ Partial Class Form1
         '
         'btn_selectFolder
         '
-        Me.btn_selectFolder.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_selectFolder.Location = New System.Drawing.Point(205, 39)
+        Me.btn_selectFolder.Font = New System.Drawing.Font("Microsoft Tai Le", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_selectFolder.Location = New System.Drawing.Point(205, 33)
         Me.btn_selectFolder.Name = "btn_selectFolder"
         Me.btn_selectFolder.Size = New System.Drawing.Size(56, 23)
         Me.btn_selectFolder.TabIndex = 2
@@ -83,7 +83,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(462, 240)
+        Me.ClientSize = New System.Drawing.Size(462, 210)
         Me.Controls.Add(Me.lb_path)
         Me.Controls.Add(Me.tx_path)
         Me.Controls.Add(Me.btn_selectFolder)

@@ -47,7 +47,7 @@ Partial Class Form2
         '
         Me.lb_errorFiles.AutoSize = True
         Me.lb_errorFiles.Font = New System.Drawing.Font("Microsoft Tai Le", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_errorFiles.Location = New System.Drawing.Point(19, 47)
+        Me.lb_errorFiles.Location = New System.Drawing.Point(19, 58)
         Me.lb_errorFiles.Name = "lb_errorFiles"
         Me.lb_errorFiles.Size = New System.Drawing.Size(208, 19)
         Me.lb_errorFiles.TabIndex = 1
@@ -58,7 +58,7 @@ Partial Class Form2
         '
         Me.lb_totalFiles.AutoSize = True
         Me.lb_totalFiles.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lb_totalFiles.Location = New System.Drawing.Point(19, 10)
+        Me.lb_totalFiles.Location = New System.Drawing.Point(19, 21)
         Me.lb_totalFiles.Name = "lb_totalFiles"
         Me.lb_totalFiles.Size = New System.Drawing.Size(105, 23)
         Me.lb_totalFiles.TabIndex = 2
