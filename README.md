@@ -9,5 +9,5 @@ Select a folder path and click on Dig to explore files and subdirectories of dir
 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+See the [LICENSE](LICENSE) file for details
 
