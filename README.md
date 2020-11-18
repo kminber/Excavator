@@ -9,7 +9,7 @@ Aplicación sencilla para obtener una lista de los archivos todos los archivos q
 Seleccione una ruta de carpeta y haga clic en Dig para explorar archivos y subdirectorios del directorio seleccionado. Después se mostrará una tabla con los datos.
 
 ### Licencia
-Ver el archivo de [LICENSE](LICENSE) para más detalles.
+Ver el archivo de [LICENSE](LICENCIA) para más detalles.
 
 ## English
 Simple app to get a list of all files that there are in a selected directory together with:
