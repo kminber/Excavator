@@ -1,4 +1,4 @@
-# FolderDigger
+# Excavator
 ## Español
 Aplicación sencilla para obtener una lista de los archivos todos los archivos que contiene un directorio junto con:
 - El tipo de archivo.
